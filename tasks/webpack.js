@@ -6,10 +6,6 @@ const isProduction = (process.env.NODE_ENV === 'production')
 
 let config = {
   mode: 'production',
-  // I would recommend using different config variables
-  // depending on the eviroment.
-  // The package 'webpack-merge' can help with that.
-  // This tenary setup is just for simplicity sake.
   entry: isProduction ? {
     main: './_scripts/index.js'
   } : {

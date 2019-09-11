@@ -2,6 +2,7 @@
 .sass-cache
 .bundle
 .jekyll-metadata
+.jekyll-cache
 
 # Site build & Distribution
 dist
@@ -14,4 +15,3 @@ node_modules
 
 vendor/**/*
 
-notes.txt

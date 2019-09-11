@@ -2,6 +2,7 @@
 ---
 
 @import "settings";
+
 // Bootstrap
 @import "vendor/bootstrap/breakpoints";
 
@@ -17,5 +18,10 @@
 @import "pages/homepage";
 
 // Examples
-@import "resources/cognito";
-@import "vendor/lazyload";
+@import "resources/lazyload";
+@import "resources/bg_video";
+@import "resources/blockquotes";
+@import "resources/tab_collapse";
+
+// Vendor Specific
+@import "vendor/cognito";
