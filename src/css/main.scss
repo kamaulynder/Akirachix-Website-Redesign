@@ -30,16 +30,21 @@
 
 /*****GLOBAL STYLING*******/
 #donate_button{
-	padding:10px 18px;
-	border-radius:5px;
-	text-decoration:none;
-	background-color:#812990;
+  color: #fff;
+  padding:10px 18px;
+  border-radius:5px;
+  text-decoration:none;
+  background-color:#812990;
+}
+#donate_button:hover{
+  color: orange;
+  
 }
 #apply_button{
-	padding:10px 18px;
-	border-radius:5px;
-	text-decoration:none;
-	background-color:#812990;
+  padding:10px 18px;
+  border-radius:5px;
+  text-decoration:none;
+  background-color:#812990;
 }
 
 body{
@@ -55,50 +60,49 @@ h6{
   font-weight: bold;
 }
 
-//header
+/*header*/
 .navbar-brand:hover, .navbar-default .navbar-brand:focus {
   color: #fff;
 }
 .navbar-nav  li  a {
-  color: #e5dbdb;
+  color:#4a4a4a;
   font-size: 14px;
   font-weight: 700;
 }
 .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
- 
-  color: #e5dbdb;
+  color:#812990;
 }
-
+.current_page_item a{
+  color:#812990; 
+ 
+}
 /*******STYLING HOME PAGE**********/
 h3{
 
     font-weight: bold;
     color: #646264;
-
-	color: #646264;
     font-weight: bold;
 }
 
-//home-page
+h1{
+  color: #fff;
+  font-size: 40px;
+  font-weight:bold;
+}
+
+/*home-page*/
 
 .bg-image.aspect-hero{
-	padding: 10% 0 0 0;
-	min-height:600px;
-	text-align: center; 
-}
-.top-img{
-
-    position: absolute;
-      top: 70px;
-      left: 35%;
-
+  padding: 10% 0 0 0;
+  min-height:600px;
+  text-align: center; 
 }
 
-//about 
+/*about */
 #about{
     background: url(../img/about.png);
     background-size: cover;
-    repeat: no repeat;
+    background-repeat:no-repeat;
 }
 .theory h6{
      font-weight: bold;
@@ -181,16 +185,17 @@ h3{
 
 
 
-// impact
+ /*impact*/
 #impact{
   background: url(https://pbs.twimg.com/media/EJEj1MlX0AA9qe8?format=jpg&name=4096x4096);   
 }
 
-//programmes
+/*programmes*/
 #programmes{
     background: url(../img/code.png);
     background-size: cover;
-    repeat: no repeat;
+    background-repeat: no-repeat;
+    background-position:center center;
 }
 .awtclink{
   border-bottom: 1px;
@@ -204,22 +209,24 @@ h3{
   repeat: no repeat;
 }
 
-//donate
+/*donate*/
 #donate{
     background: url(../img/Ban-Ki-Moon.jpg);
     background-size: cover;
-    repeat: no repeat;
+     background-repeat: no-repeat;
+     background-position:center center;
 }
 
-//get involved
+/*get involved*/
 
 #get_involved{
     background: url(../img/Ban-Ki-Moon.jpg);
     background-size: cover;
-    repeat: no repeat;
+     background-repeat: no-repeat;
+     background-position:center center;
 }
 
-//footer
+/*footer*/
 
 #footer{
     background-color:#1c2331;
@@ -237,7 +244,43 @@ h3{
 }
 
 
+/*apply*/
+#apply{
+  background: url(../img/lappy.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center center;
+}
 
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .top-img{
+    width: 300px;
+    height: auto;
+  }
+
+  .bg-image.aspect-hero{
+  padding: 40% 0 0 0;
+  min-height:400px;
+  text-align: center; 
+}
+  h1{
+  color: #fff;
+  font-size: 25px;
+  font-weight:bold;
+}
+}
 
 
 
