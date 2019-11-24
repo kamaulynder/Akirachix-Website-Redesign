@@ -46,6 +46,14 @@ body{
     
     line-height: 1.6em;
 }
+p{
+  font-size: 16px;
+  color: #4a4a4a;
+  letter-spacing: 0.5px;
+}
+h6{
+  font-weight: bold;
+}
 
 //header
 .navbar-brand:hover, .navbar-default .navbar-brand:focus {
@@ -69,8 +77,6 @@ h3{
 
 	color: #646264;
     font-weight: bold;
-	
-
 }
 
 //home-page
@@ -97,6 +103,10 @@ h3{
 .theory h6{
      font-weight: bold;
 }
+.theory ul li {
+     font-size: 16px;
+}
+
 .content {
   position: relative;
   width: 100%;
@@ -182,6 +192,17 @@ h3{
     background-size: cover;
     repeat: no repeat;
 }
+.awtclink{
+  border-bottom: 1px;
+  color: red;
+}
+
+//apply
+#apply{
+  background: url(../img/culture-day.jpg);
+  background-size: cover;
+  repeat: no repeat;
+}
 
 //donate
 #donate{
@@ -215,12 +236,7 @@ h3{
     background-color:#161c27;
 }
 
-//apply
-#apply{
-  background: url(../img/fun-day.jpg);
-  background-size: cover;
-  repeat: no repeat;
-}
+
 
 
 
