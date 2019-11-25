@@ -41,11 +41,13 @@
   
 }
 #apply_button{
-  padding:10px 18px;
+  color: #fff;
+  padding:7px 18px;
   border-radius:5px;
   text-decoration:none;
-  background-color:#812990;
+  background-color:#000066;
 }
+
 
 body{
     
@@ -61,8 +63,13 @@ h6{
 }
 
 /*header*/
+
 .navbar-brand:hover, .navbar-default .navbar-brand:focus {
   color: #fff;
+}
+
+#page-header{
+  background-color: #ffffff;
 }
 .navbar-nav  li  a {
   color:#4a4a4a;
@@ -93,9 +100,20 @@ h1{
 /*home-page*/
 
 .bg-image.aspect-hero{
-  padding: 10% 0 0 0;
+  padding: 17% 0 0 0;
   min-height:600px;
   text-align: center; 
+}
+.bg-image.aspect-hero h1{
+   font-size: 50px;
+}
+
+#learn_more{
+  color: #fff;
+  padding:10px 18px;
+  border-radius:5px;
+  text-decoration:none;
+  background-color:#065bf7;
 }
 
 /*about */
@@ -189,6 +207,13 @@ h1{
 #impact{
   background: url(https://pbs.twimg.com/media/EJEj1MlX0AA9qe8?format=jpg&name=4096x4096);   
 }
+#hire{
+  color: #fff;
+  padding:7px 18px;
+  border-radius:5px;
+  text-decoration:none;
+  background-color:#ff6e03;
+}
 
 /*programmes*/
 #programmes{
@@ -199,7 +224,7 @@ h1{
 }
 .awtclink{
   border-bottom: 1px;
-  color: red;
+  color: #4584f9;
 }
 
 //apply
@@ -226,10 +251,26 @@ h1{
      background-position:center center;
 }
 
+#partner{
+  color: #fff;
+  padding:10px 18px;
+  border-radius:5px;
+  text-decoration:none;
+  background-color:#0da7c6;
+}
+
+#mentor{
+  color: #fff;
+  padding:10px 18px;
+  border-radius:5px;
+  text-decoration:none;
+  background-color:#ed1086;
+}
+
 /*footer*/
 
 #footer{
-    background-color:#1c2331;
+    background-color:#00010c;
 }
 #copyright{
     background-color:#161c27;
@@ -240,7 +281,10 @@ h1{
 }
 
 #footer hr{
-    background-color:#161c27;
+    background-color:#515152;
+}
+.address p{
+   color: #515152;
 }
 
 
@@ -250,6 +294,14 @@ h1{
   background-size: cover;
   background-repeat: no-repeat;
   background-position:center center;
+}
+/*contact*/
+#submit{
+  color: #fff;
+  padding:10px 18px;
+  border-radius:5px;
+  text-decoration:none;
+  background-color:#040c70; 
 }
 
 
