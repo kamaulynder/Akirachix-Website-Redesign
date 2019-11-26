@@ -100,8 +100,8 @@ h1{
 /*home-page*/
 
 .bg-image.aspect-hero{
-  padding: 17% 0 0 0;
-  min-height:600px;
+  padding: 15% 0 0 0;
+  min-height:700px;
   text-align: center; 
 }
 .bg-image.aspect-hero h1{
@@ -205,7 +205,10 @@ h1{
 
  /*impact*/
 #impact{
-  background: url(https://pbs.twimg.com/media/EJEj1MlX0AA9qe8?format=jpg&name=4096x4096);   
+ background: url(../img/lappy.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center center;  
 }
 #hire{
   color: #fff;
