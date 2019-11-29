@@ -100,8 +100,8 @@ h1{
 /*home-page*/
 
 .bg-image.aspect-hero{
-  padding: 15% 0 0 0;
-  min-height:700px;
+  padding: 18% 0 0 0;
+  min-height:750px;
   text-align: center; 
 }
 .bg-image.aspect-hero h1{
@@ -118,7 +118,7 @@ h1{
 
 /*about */
 #about{
-    background: url(../img/about.png);
+    background: url(../img/aboutp.png);
     background-size: cover;
     background-repeat:no-repeat;
 }
@@ -205,7 +205,7 @@ h1{
 
  /*impact*/
 #impact{
- background: url(../img/lappy.jpg);
+ background: url(../img/impact.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position:center center;  
@@ -220,35 +220,35 @@ h1{
 
 /*programmes*/
 #programmes{
-    background: url(../img/code.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position:center center;
+   background: url(../img/programmes.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center center;
 }
 .awtclink{
   border-bottom: 1px;
   color: #4584f9;
 }
 
-//apply
-#apply{
-  background: url(../img/culture-day.jpg);
-  background-size: cover;
-  repeat: no repeat;
-}
-
 /*donate*/
 #donate{
-    background: url(../img/Ban-Ki-Moon.jpg);
-    background-size: cover;
-     background-repeat: no-repeat;
-     background-position:center center;
+  background: url(../img/donate.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center center;
+}
+
+#contact{
+  background: url(../img/programmes.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center center;
 }
 
 /*get involved*/
 
 #get_involved{
-    background: url(../img/Ban-Ki-Moon.jpg);
+    background: url(../img/getinvolved.png);
     background-size: cover;
      background-repeat: no-repeat;
      background-position:center center;
@@ -293,7 +293,7 @@ h1{
 
 /*apply*/
 #apply{
-  background: url(../img/lappy.jpg);
+  background: url(../img/apply.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position:center center;
