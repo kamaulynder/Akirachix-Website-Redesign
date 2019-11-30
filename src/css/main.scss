@@ -321,21 +321,19 @@ h1{
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width:769px) {
   .top-img{
     width: 300px;
     height: auto;
   }
 
   .bg-image.aspect-hero{
-  padding: 40% 0 0 0;
+  padding: 50% 0 0 0;
   min-height:400px;
   text-align: center; 
 }
-  h1{
-  color: #fff;
-  font-size: 25px;
-  font-weight:bold;
+.bg-image.aspect-hero h1{
+   font-size: 25px;
 }
 }
 
