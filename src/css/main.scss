@@ -100,7 +100,7 @@ h1{
 /*home-page*/
 
 .bg-image.aspect-hero{
-  padding: 18% 0 0 0;
+  padding: 20% 0 0 0;
   min-height:800px;
   text-align: center; 
   margin-top: 2%;
@@ -122,6 +122,7 @@ h1{
     background: url(../img/aboutp.png);
     background-size: cover;
     background-repeat:no-repeat;
+    background-position:center center;
 }
 .theory h6{
      font-weight: bold;
@@ -206,7 +207,7 @@ h1{
 
  /*impact*/
 #impact{
- background: url(../img/impact.png);
+ background: url(../img/impact-hero-image.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position:center center;  
@@ -221,7 +222,7 @@ h1{
 
 /*programmes*/
 #programmes{
-   background: url(../img/programmes.png);
+   background: url(../img/programmes_page_hero_image.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position:center center;
@@ -251,8 +252,8 @@ h1{
 #get_involved{
     background: url(../img/getinvolved.png);
     background-size: cover;
-     background-repeat: no-repeat;
-     background-position:center center;
+    background-repeat: no-repeat;
+    background-position:center center;
 }
 
 #partner{
@@ -294,7 +295,7 @@ h1{
 
 /*apply*/
 #apply{
-  background: url(../img/apply.png);
+  background: url(../img/apply_page_hero_image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position:center center;
@@ -320,21 +321,24 @@ h1{
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width:769px) {
   .top-img{
     width: 300px;
     height: auto;
   }
 
   .bg-image.aspect-hero{
-  padding: 40% 0 0 0;
+  padding: 50% 0 0 0;
   min-height:400px;
   text-align: center; 
 }
-  h1{
-  color: #fff;
-  font-size: 25px;
-  font-weight:bold;
+.bg-image.aspect-hero h1{
+   font-size: 25px;
+}
+#get_involved_img{
+  width: 300px;
+  height: auto;
+  margin-bottom: 5%;
 }
 }
 
