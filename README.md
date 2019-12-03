@@ -21,3 +21,4 @@ This project uses Gulp, Jekyll, Cloudcannon Suite. It is meant for hosting on Cl
 
 ## Resources ##
 
+https://gyazo.com/da8d29bc6b392b5824d30675b78c40b5

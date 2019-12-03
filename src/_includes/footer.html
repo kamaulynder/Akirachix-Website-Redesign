@@ -15,11 +15,13 @@
 	          <p class="text-secondary">Savelberg Retreat Centre
 	          	<br> Muringa road,<br> Kilimani, Nairobi</p>
 		      </div>
-		      
+
 		      <div class="col-md-3 mb-md-0 mb-3">
 		        <h6 class="pt-3 text-light">NEWSLETTER</h6>
-	        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-	        <button type="submit" class="btn btn-secondary mt-3 mb-5">SUBSCRIBE</button>
+	        <!-- <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"> -->
+					<!-- <a class="btn btn-secondary mt-3 mb-5" href="http://eepurl.com/QIlGr">SUBSCRIBE</a> -->
+					{% include mailchimp_signup.html %}
+
 	        <br>
 	         <a class="text-light" id="donate_button" href="/donate/">DONATE</a>
 		      </div>
