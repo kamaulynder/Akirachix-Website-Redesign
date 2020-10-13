@@ -419,6 +419,22 @@ h1{
 
 
 
+.card-header, .card-link,.card-link:hover{background-color:#812990;text-align:left;color:white;}
+.card-body{padding:10px 10px;}
+.arrow{position:absolute;top:5px;right:20px;font-size:20px;color:white;
+-webkit-animation: minus 0.5s;}
+
+@keyframes minus {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+[aria-expanded="false"] > .expanded, [aria-expanded="true"] > .collapsed {display: none;}
+
 
 
 
