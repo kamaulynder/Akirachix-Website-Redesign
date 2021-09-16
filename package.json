@@ -9,14 +9,12 @@
   },
   "scripts": {
     "start": "gulp dev",
-    "scripts": "NODE_ENV=production gulp buildScripts",
-    "postinstall": "patch-package"
+    "scripts": "NODE_ENV=production gulp buildScripts"
   },
   "author": "AkiraChix",
   "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.20",
-    "patch-package": "^6.2.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },

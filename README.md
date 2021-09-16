@@ -8,13 +8,17 @@ This project uses Gulp, Jekyll, Cloudcannon Suite. It is meant for hosting on Cl
 3. Gulp
 
 ## Getting Started ##
-1. Install Node packages: `npm install`
-2. Install Gem Dependencies: `gulp dev:install`
+1. Install Ruby verion 2.7.3
+2. Install Gem dependecies: `gem install bundler`
+3. Install Gulp globally: `yarn add gulp-cli`
+4. Install Gem Dependencies: `gulp dev:install`
+5. Install Node packages: `yarn install`
+6. Start server: `yarn start or cd src then run jekyll serve --watch`
 
 
 ## Daily Startup ##
 1. `cd` to project directory
-2. Start environment: `npm start`
+2. Start environment: `yarn start or cd src then run jekyll serve --watch`
 3. Navigate to [http://localhost:4000/](http://localhost:4000/)
 
 ============
