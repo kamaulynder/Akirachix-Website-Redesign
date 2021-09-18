@@ -87,7 +87,10 @@
   text-decoration:none;
   background-color:#812990;
 }
-
+#purple_section{
+  background-color:#812990;
+  // color: rgb(255, 255, 255);
+}
 #toggle_button{
   color: #fff;
   padding:10px 18px;
@@ -112,8 +115,25 @@
   background-color:#000066;
 
 }
-
-
+#links{
+  color:white;
+  text-decoration: none;
+}
+.banner_image{
+  background-image: url(../img/jump-bunner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center center;
+  width: '100%';
+  height: 590px;
+}
+#videos {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
 body{
     
     line-height: 1.6em;
@@ -370,10 +390,11 @@ h1{
 
 /*apply*/
 #apply{
-  background: url(../img/apply_image.png);
+  background: url(../img/campaign_website.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position:center center;
+  width: '100%'
 }
 /*contact*/
 #submit{
